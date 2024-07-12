@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.bing.com/th/id/OGC.4ee57a12099e275835c683a2befb5584?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fxT9IgzvnOyNDYnxeHS%2fgiphy.gif&ehk=7zT8nT5VhzuxDrl4wkzuVZF07q94ihh02UrknkfB9j0%3d');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff; /* Optional: change text color for better visibility */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    color: black; /* Optional: change text color for better visibility */
+}
+
+#filters {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#filters button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: make buttons stand out */
+    border: none;
+    border-radius: 5px;
+}
+
+#filters button:hover {
+    background-color: black (255, 255, 255, 1);
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gallery figure {
+    margin: 10px;
+    flex-basis: 30%;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: make images stand out */
+    border-radius: 5px;
+}
+
+#gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    #gallery figure {
+        flex-basis: 100%;
+    }
+}

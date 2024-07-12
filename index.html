@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> <!-- Added Font -->
+</head>
+<body>
+    <header>
+        <h1>Interactive Photo Gallery</h1>
+    </header>
+    <section id="filters">
+        <button data-category="all">All</button>
+        <button data-category="nature">Nature</button>
+        <button data-category="animals">Animals</button>
+        <button data-category="architecture">Architecture</button>
+    </section>
+    <section id="gallery">
+        <figure data-category="nature"><img src="https://th.bing.com/th/id/OIP.ePnc_3xImlnV2YVxIx1kcwHaEJ?w=304&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Nature 1"></figure>
+        <figure data-category="animals"><img src="https://th.bing.com/th/id/OIP.Xl4c6YAih3fXcDxlr8WfEwHaE8?w=269&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Animals 1"></figure>
+        <figure data-category="architecture"><img src="https://th.bing.com/th?id=OIP.l-QztF4Ghh8NNnTUO_JkFQHaFj&w=288&h=216&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Architecture 1"></figure>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
